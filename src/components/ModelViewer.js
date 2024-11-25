@@ -13,6 +13,7 @@ const ModelViewer = ({ modelPath, scale = 1, fallbackMessage = 'Loading...' }) =
       {/* Lights */}
       <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 10]} />
+      <directionalLight position={[-10, -10, -10]} />
 
       {/* Suspense for loading 3D model */}
       <Suspense
