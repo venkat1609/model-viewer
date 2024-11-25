@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="model-viewer">
-        <ModelViewer modelPath="/nissan_skyline_r35_gtr_nismo.glb" />
+        <ModelViewer modelPath="/models/home.glb" />
       </div>
     </div>
   );
